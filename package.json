@@ -1,0 +1,39 @@
+{
+  "_from": "@dnerolabs/dnc20-contract-metadata@^1.0.2",
+  "_id": "@dnerolabs/dnc20-contract-metadata@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-tyjwYu9AZiWINi7PvQzJfQP+vB9j0Jfz5KzW1xIm4VjWshLIKRSR29RzqG5LjLTkqMseLC2JMwN49bU/bZf0zw==",
+  "_location": "/@dnerolabs/dnc20-contract-metadata",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@dnerolabs/dnc20-contract-metadata@^1.0.2",
+    "name": "@dnerolabs/dnc20-contract-metadata",
+    "escapedName": "@dnerolabs%2fdnc20-contract-metadata",
+    "scope": "@dnerolabs",
+    "rawSpec": "^1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@dnerolabs/dnc20-contract-metadata/-/dnc20-contract-metadata-1.0.2.tgz",
+  "_shasum": "a0a9c12787dec18eab26f6836508e2213d0498b1",
+  "_spec": "@dnerolabs/dnc20-contract-metadata@^1.0.2",
+  "_where": "/home/dnerodev/dnero-webwallet",
+  "author": {
+    "name": "Dnero Labs"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A mapping of DNC20 contract addresses to broadly accepted icons for those tokens.",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@dnerolabs/dnc20-contract-metadata",
+  "scripts": {
+    "publish--public": "npm publish --access public"
+  },
+  "version": "1.0.2"
+}
