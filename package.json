@@ -18,7 +18,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git://github.com/muroko/dnc20-contract-metadata.git",
+  "_resolved": "https://github.com/muroko/dnc20-contract-metadata",
   "_spec": "@dnerolabs/dnc20-contract-metadata@^1.0.2",
   "_where": "/home/dnerodev/dnero-webwallet",
   "author": {
