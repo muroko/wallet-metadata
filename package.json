@@ -2,7 +2,6 @@
   "_from": "@dnerolabs/dnc20-contract-metadata@^1.0.2",
   "_id": "@dnerolabs/dnc20-contract-metadata@1.0.2",
   "_inBundle": false,
-  "_integrity": "sha512-tyjwYu9AZiWINi7PvQzJfQP+vB9j0Jfz5KzW1xIm4VjWshLIKRSR29RzqG5LjLTkqMseLC2JMwN49bU/bZf0zw==",
   "_location": "/@dnerolabs/dnc20-contract-metadata",
   "_phantomChildren": {},
   "_requested": {
@@ -19,8 +18,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@dnerolabs/dnc20-contract-metadata/-/dnc20-contract-metadata-1.0.2.tgz",
-  "_shasum": "a0a9c12787dec18eab26f6836508e2213d0498b1",
+  "_resolved": "git://github.com/muroko/dnc20-contract-metadata.git",
   "_spec": "@dnerolabs/dnc20-contract-metadata@^1.0.2",
   "_where": "/home/dnerodev/dnero-webwallet",
   "author": {
