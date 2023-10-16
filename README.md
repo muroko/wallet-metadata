@@ -1,4 +1,4 @@
-# @dnerolabs/dnc20-contract-metadata
+# @dnerolabs/wallet-metadata
 
 A mapping of checksummed contract addresses to metadata, like names, and images of their logos.
 
@@ -6,7 +6,7 @@ All address keys follow the [EIP 55 address checksum format](https://github.com/
 
 ## Usage
 
-You can install from npm with `npm install @dnerolabs/dnc20-contract-metadata` and use it in your code like this:
+You can install from npm with `npm install @dnerolabs/wallet-metadata` and use it in your code like this:
 
 ```javascript
 import tokensByChainId from '@dnerolabs/dnc20-contract-metadata';
