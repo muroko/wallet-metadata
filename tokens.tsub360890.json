@@ -1,0 +1,9 @@
+{
+  "0x7C1AAe7bD03c577af08F51b536BFeeba516dB877":{
+    "name": "vLAVITA",
+    "logo": "lavita.png",
+    "symbol": "vLAVITA",
+    "decimals": 18,
+    "voucher": true
+  }
+}

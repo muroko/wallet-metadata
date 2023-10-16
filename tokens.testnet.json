@@ -1,0 +1,14 @@
+{
+  "0x08a0c0e8EFd07A98db11d79165063B6Bc2469ADF":{
+    "name": "DDROP",
+    "logo": "ddrop.png",
+    "symbol": "DDROP",
+    "decimals": 18
+  },
+  "0x90e6ca1087a2340da858069cb8d78d595e4ac798":{
+    "name": "wDNERO",
+    "logo": "wdnero.png",
+    "symbol": "wDNERO",
+    "decimals": 18
+  }
+}
