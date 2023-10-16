@@ -1,0 +1,41 @@
+name: Publish Metadata - Prod
+
+on:
+  push:
+    tags:
+      - "v*.*.*_prod"
+
+jobs:
+  setup-build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'https://registry.npmjs.org'
+      - name: Install deps
+        run: npm install
+      - name: Build json
+        run: npm run build
+        env:
+          CI: false
+      - name: Publish to NPM
+        run: npm publish --access public
+        env:
+          CI: false
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-2
+      - name: Copy files to S3
+        run: |
+          aws s3 sync build/ s3://wallet-api.dnerochain.xyz/wallet-metadata/v1
+      - name: Clear the CloudFront Cache
+        run: |
+          aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_DISTRIBUTION --paths '/wallet-metadata/v1/*'
+        env:
+          AWS_CLOUDFRONT_DISTRIBUTION: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION }}
