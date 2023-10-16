@@ -1,0 +1,32 @@
+[
+  {
+    "name": "DneroSwap",
+    "description": "The DEX for Dnero Network",
+    "uri": "https://swap.dnerochain.xyz",
+    "icon": "https://swap.dnerochain.xyz/favicon.ico"
+  },
+  {
+    "name": "DneroRarity",
+    "description": "Helps guide the community in making informed NFT choices",
+    "uri": "https://www.dnerorarity.com",
+    "icon": "https://www.dnerorarity.com/gfx/logo_big.png"
+  },
+  {
+    "name": "OpenDnero",
+    "description": "The first independent marketplace for NFTS on Dnero",
+    "uri": "https://www.opendnero.io",
+    "icon": "https://opendnero.io/favicon.ico"
+  },
+  {
+    "name": "Lavita.ai",
+    "description": "Private health data marketplace powered by AI, blockchain & YOU",
+    "uri": "https://www.lavita.ai/stake",
+    "icon": "https://www.lavita.ai/favicon.ico"
+  },
+  {
+    "name": "Passaways (TPMC)",
+    "description": "Passaways/PLASM ecosystem on DNERO",
+    "uri": "https://www.passaways.com/tpmc",
+    "icon": "https://www.passaways.com/favicon.ico"
+  }
+]
