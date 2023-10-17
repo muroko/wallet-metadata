@@ -9,7 +9,7 @@ All address keys follow the [EIP 55 address checksum format](https://github.com/
 You can install from npm with `npm install @dnerolabs/wallet-metadata` and use it in your code like this:
 
 ```javascript
-import tokensByChainId from '@dnerolabs/dnc20-contract-metadata';
+import tokensByChainId from '@dnerolabs/wallet-metadata';
 import ethJSUtil from 'ethereumjs-util'
 const { toChecksumAddress } = ethJSUtil
 
