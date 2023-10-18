@@ -29,7 +29,7 @@ function prepareData(data) {
   return data;
 }
 
-let tokenLogoBaseUrl = 'https://wallet-api.dnerochain.xyz/tokens/';
+let tokenLogoBaseUrl = 'https://assets.dnerochain.xyz/tokens/';
 let defaultData = prepareData({
   mainnet: {
     tokens: tokensMainnet,
@@ -57,7 +57,7 @@ async function sync(onLoad = undefined) {
   try {
     if (!isDataLoading) {
       isDataLoading = true;
-      const req = await fetch('https://wallet-api.dnerochain.xyz/wallet-metadata/v1/data.json');
+      const req = await fetch('https://assets.dnerochain.xyz/wallet-metadata/v1/data.json');
       const json = await req.json();
       if(json){
         latestData = prepareData(json);

@@ -33,7 +33,7 @@ jobs:
           aws-region: us-east-2
       - name: Copy files to S3
         run: |
-          aws s3 sync build/ s3://wallet-api.dnerochain.xyz/wallet-metadata/v1
+          aws s3 sync build/ s3://assets.dnerochain.xyz/wallet-metadata/v1
       - name: Clear the CloudFront Cache
         run: |
           aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_DISTRIBUTION --paths '/wallet-metadata/v1/*'
